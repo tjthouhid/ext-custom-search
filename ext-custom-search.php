@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: EXTERNAL CUSTOM SEARCH
- * Plugin URI: http://www.tjthouhid.com
- * Description: EXTERNAL CUSTOM SEARCH
+ * Plugin Name: Woo-tj Custom Filtering
+ * Plugin URI: http://www.tjthouhid.me
+ * Description: Woocommerce Custom Filtering. This is similar filtering like randysworldwide.com for wordpress woocommerce
  * Version: 1.0.0
  * Author: Tj Thouhid
  * Author URI: https://tjthouhid.me
