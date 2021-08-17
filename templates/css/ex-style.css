@@ -1,0 +1,165 @@
+.div-wrapper{
+    padding: 20px 15px;
+}
+.sync-btn{
+	background-color: #2c7cba;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.sync-btn:hover{
+	color: #fff;
+	opacity:0.7;
+}
+
+.eh-section{
+    margin: 40px auto;
+    max-width: 1000px;
+}
+.eh-section-full{
+    margin: 40px auto;
+}
+.eh-body{
+
+}
+.eh-row{}
+.eh-row:after{clear: both;display: block;content: "";}
+.eh-col-6{width: 50%;box-sizing: border-box;float: left;padding: 10px 15px;}
+.eh-col-12{width: 100%;}
+.tbl-headline{display: inline-block;}
+/*--------------------- eh-table ---------------------------*/
+.eh-table{
+    width: 100%;
+    border-spacing: 0;
+    clear: both;
+    margin: 0;
+    background: #fff;
+}
+.eh-table thead{}
+.eh-table thead tr{}
+.eh-table thead tr th{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 15px;
+    text-align: center;
+}
+.eh-table tbody{}
+.eh-table tbody tr{}
+.eh-table tbody tr td{
+    padding: 6px 15px;
+    text-align: left;
+}
+.eh-table tbody tr:nth-child(odd){
+    background-color: #f9f9f9;
+}
+.eh-table tbody tr:nth-child(even){
+    background-color: #fff;
+}
+.action-add{
+    border: 1px solid #b3aeae;
+    background-color: #fff;
+    color: #0073aa;
+    padding: 5px 30px;
+    margin: 15px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+.action-add:hover{
+    border-color: #008ec2;
+    background: #00a0d2;
+    color: #fff;
+}
+.action-edit{
+    border: 1px solid #b3aeae;
+    color: #b3aeae;
+    padding: 2px 5px;
+    margin-right: 12px;
+    display: inline-block;
+}
+.action-edit:hover{
+    color: #fff;
+    background-color: #b3aeae;
+}
+.action-delete{
+    border: 1px solid #790d0d;
+    color: #790d0d;
+    padding: 2px 5px;
+    margin-right: 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+.action-delete:hover{
+    color: #fff;
+    background-color: #790d0d;
+}
+/*--------------------- eh-table ---------------------------*/
+
+.extra-h-form{
+    max-width: 400px;
+}
+.input-box{display: block;margin: 15px 0px;}
+.input-label{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 12px 0px;
+    display: block;
+}
+.input-text{
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0px 15px;
+}
+.input-select{
+    height: 40px !important;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 10px !important;;
+}
+.input-radio{
+    margin: 5px 3px !important;
+}
+.radio-label{
+    position: relative;
+    top : 2px;
+    font-weight: 500;
+}
+.input-textarea{
+    resize: none;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.eh-btn{
+    background-color: #fff;
+    color: #020202;
+    border: 1px solid #000;
+    padding: 6px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-save{
+    background-color: #314c9c;
+    color: #ffffff;
+    border: 1px solid #314c9c;
+}
+.btn-save:hover{
+    background-color: #627bc5;
+    color: #ffffff;
+}
+.btn-cancel{
+    background-color: #c31919;
+    color: #ffffff;
+    border: 1px solid #c31919;
+}
+.btn-cancel:hover{
+    background-color: #de4f4f;
+    color: #ffffff;
+}
+.navigation{text-align: center;margin: 20px auto;}
+.navigation ul{list-style: none;display: inline-block;padding: 0px;margin: 0px;}
+.navigation ul li{display: inline-block;margin: 5px;}
+.navigation ul li a{padding: 5px 10px;border: 1px solid #1d3cad;color: #1d3cad;text-decoration: none;}
+.navigation ul li:hover a{background-color: #1d3cad; color: #fff;}
+.navigation ul li.active a{background-color: #1d3cad; color: #fff;}
